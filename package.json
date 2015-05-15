@@ -1,22 +1,23 @@
 {
-  "name": "aurelia-skeleton-navigation",
-  "version": "0.13.0",
-  "description": "A starter kit for building a standard navigation-style app with Aurelia.",
+  "name": "aurelia-skeleton-navigation-foundation",
+  "version": "0.13.1",
+  "description": "A starter kit for building a standard navigation-style app with Aurelia and Zurb Foundation.",
   "keywords": [
     "aurelia",
     "navigation",
-    "skeleton"
+    "skeleton",
+    "foundation"
   ],
-  "homepage": "http://aurelia.io",
+  "homepage": "http://github.com/telekosmos/skeleton-navigation-foundation",
   "bugs": {
-    "url": "https://github.com/aurelia/skeleton-navigation/issues"
+    "url": "https://github.com/telekosmos/skeleton-navigation-foundation/issues"
   },
   "license": "MIT",
-  "author": "Rob Eisenberg <rob@bluespire.com> (http://robeisenberg.com/)",
+  "author": "telekosmos (@ymail.com)",
   "main": "dist/commonjs/index.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/aurelia/skeleton-navigation"
+    "url": "http://github.com/telekosmos/skeleton-navigation-foundation"
   },
   "devDependencies": {
     "aurelia-tools": "^0.1.3",
