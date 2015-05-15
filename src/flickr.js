@@ -14,6 +14,13 @@ export class Flickr{
   activate(){
     return this.http.jsonp(this.url).then(response => {
       this.images = response.content.items;
+      let regexp = /\/(\d+)\/$/;
+      this.images = this.images.map(function(img, index) {
+        let res = regexp.exec(img.link);
+        img.imgId = `img${res[1]}`;
+
+        return img;
+      })
     });
   }
 

@@ -1,12 +1,12 @@
 <template>
   <section>
-      <h2>${heading}</h2>
-      <div class="row au-stagger">
-        <div class="col-sm-6 col-md-3 flickr-img au-animate" repeat.for="image of images">
-          <a class="thumbnail">
-            <img src.bind="image.media.m"/>
-          </a>
-        </div>
+    <h2>${heading}</h2>
+    
+    <div class="row au-stagger">
+      <require from="./modalpic"></require>
+      <div class="small-3 medium-3 columns flickr-img au-animate" repeat.for="image of images">
+        <modal-pic source.bind="image"></modal-pic>
       </div>
+    </div>
   </section>
 </template>

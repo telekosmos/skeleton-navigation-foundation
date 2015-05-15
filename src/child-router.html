@@ -2,16 +2,18 @@
   <section class="au-animate">
     <h2>${heading}</h2>
     <div>
-      <div class="col-md-2">
-        <ul class="well nav nav-pills nav-stacked">
+      <div class="medium-2 columns">
+        <ul class="panel radius side-nav">
           <li repeat.for="row of router.navigation" class="${row.isActive ? 'active' : ''}">
             <a href.bind="row.href">${row.title}</a>
           </li>
         </ul>
       </div>
-      <div class="col-md-10" style="padding: 0">
+      <!-- app content area -->
+      <div class="medium-10 columns">
         <router-view></router-view>
       </div>
+      
     </div>
   </section>
 </template>

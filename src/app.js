@@ -1,5 +1,14 @@
-import 'bootstrap';
-import 'bootstrap/css/bootstrap.css!';
+// import 'bootstrap';
+// import 'bootstrap/css/bootstrap.css!';
+
+import 'modernizr';
+// import $ from 'jquery';
+import 'fastclick';
+/* import {Foundation} from 'foundation'; */
+import 'foundation';
+import 'foundation/css/foundation.css!';
+import 'foundation/js/foundation/foundation.topbar';
+import 'foundation/js/foundation/foundation.reveal';
 
 export class App {
   configureRouter(config, router){

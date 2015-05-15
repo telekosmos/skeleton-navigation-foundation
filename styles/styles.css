@@ -58,6 +58,15 @@ div.au-stagger {
   animation-delay:50ms;
 }
 
+div.au-animate {
+  margin-bottom: 1rem;
+}
+
+ul.title-area li.name {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .flickr-img.au-enter {
   opacity: 0!important;
 }
