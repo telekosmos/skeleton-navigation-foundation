@@ -11,10 +11,14 @@
       </div>
       -->
     <div class="row au-stagger">
-      <div class="small-3 medium-3 columns au-animate" repeat.for="image of images">
+      <require from="./modalpic"></require>
+      <div class="small-3 medium-3 columns flickr-img au-animate" repeat.for="image of images">
+        <!--
         <a class="thumbnail" data-reveal-id="source.imgId">
           <img style="width: 260px; height: 180px;" src.bind="image.media.m" />
         </a>
+        -->
+        <modal-pic source.bind="image"></modal-pic>
       </div>
     </div>
   </section>
