@@ -1,0 +1,1 @@
+module.exports = require("npm:holderjs@2.6.0-pre/holder");

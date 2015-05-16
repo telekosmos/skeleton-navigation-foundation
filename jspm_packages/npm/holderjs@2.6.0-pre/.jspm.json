@@ -1,0 +1,74 @@
+{
+  "name": "holderjs",
+  "version": "2.6.0-pre",
+  "summary": "client side image placeholders",
+  "description": "Holder uses SVG to render image placeholders entirely in browser.",
+  "author": {
+    "name": "Ivan Malopinsky",
+    "url": "http://imsky.co"
+  },
+  "homepage": "http://holderjs.com",
+  "license": {
+    "type": "MIT",
+    "url": "http://opensource.org/licenses/MIT"
+  },
+  "keywords": [
+    "images",
+    "placeholders",
+    "client-side",
+    "canvas",
+    "generation",
+    "development",
+    "svg"
+  ],
+  "main": "holder.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/imsky/holder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/imsky/holder/issues"
+  },
+  "devDependencies": {
+    "gulp": "~3",
+    "gulp-concat": "^2.2.0",
+    "gulp-header": "^1.0.2",
+    "gulp-jshint": "^1.6.1",
+    "gulp-replace": "^0.5.3",
+    "gulp-todo": "^0.3.8",
+    "gulp-uglifyjs": "^0.4.4",
+    "gulp-util": "~3",
+    "gulp-webpack": "^1.3.0",
+    "moment": "^2.6.0"
+  },
+  "gitHead": "8805452a8c0435cbaf059713f7da31f73cf33313",
+  "_id": "holderjs@2.6.0-pre",
+  "scripts": {},
+  "_shasum": "175d6f31a408b874bfa006e7c870e56171223811",
+  "_from": "./",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "imsky",
+    "email": "hello@imsky.co"
+  },
+  "maintainers": [
+    {
+      "name": "imsky",
+      "email": "hello@imsky.co"
+    }
+  ],
+  "dist": {
+    "shasum": "175d6f31a408b874bfa006e7c870e56171223811",
+    "tarball": "http://registry.npmjs.org/holderjs/-/holderjs-2.6.0-pre.tgz"
+  },
+  "jspm": {},
+  "format": "cjs",
+  "ignore": [
+    "node_modules"
+  ],
+  "registry": "npm",
+  "dependencies": {
+    "systemjs-json": "github:systemjs/plugin-json@^0.1.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  }
+}
