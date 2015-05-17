@@ -8,7 +8,7 @@ System.config({
     ]
   },
   "paths": {
-    "*": "src/*.js",
+    "*": "dist/*.js",
     "github:*": "jspm_packages/github/*.js",
     "npm:*": "jspm_packages/npm/*.js",
     "aurelia-skeleton-navigation/*": "dist/*.js"
